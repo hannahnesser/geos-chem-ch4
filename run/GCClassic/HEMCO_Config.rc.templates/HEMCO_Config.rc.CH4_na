@@ -126,10 +126,10 @@ Warnings:                    {WARNINGS}
 0 GEPA_OIL              $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_extraploated.nc  emissions_1B2a_Petroleum                     2012/1/1/0    C xy molec/cm2/s CH4 1008    1 50
 
 ### Gas ###
-0 GEPA_GAS_PRODUCTION   $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extraploated.nc  emissions_1B2b_Natural_Gas_Production        2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
-0 GEPA_GAS_PROCESSING   $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extraploated.nc  emissions_1B2b_Natural_Gas_Processing        2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
-0 GEPA_GAS_TRANSMISSION $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extraploated.nc  emissions_1B2b_Natural_Gas_Transmission      2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
-0 GEPA_GAS_DISTRIBUTION $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extraploated.nc  emissions_1B2b_Natural_Gas_Distribution      2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
+0 GEPA_GAS_PRODUCTION   $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Production        2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
+0 GEPA_GAS_PROCESSING   $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Processing        2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
+0 GEPA_GAS_TRANSMISSION $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Transmission      2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
+0 GEPA_GAS_DISTRIBUTION $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Distribution      2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
 
 ### Coal ###
 0 GEPA_COAL_UNDERGROUND $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Coal_Mining_Underground       2012/1/1/0    C xy molec/cm2/s CH4 1008    3 50
