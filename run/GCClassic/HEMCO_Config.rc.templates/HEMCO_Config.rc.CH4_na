@@ -123,49 +123,49 @@ Warnings:                    {WARNINGS}
 #==============================================================================
 (((GEPA
 ### Oil ###
-0 GEPA_OIL              $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_extraploated.nc  emissions_1B2a_Petroleum                     2012/1/1/0    C xy molec/cm2/s CH4 1008    1 50
+0 GEPA_OIL              $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2a_Petroleum                     2012/1/1/0    C xy molec/cm2/s CH4 1008    1 100
 
 ### Gas ###
-0 GEPA_GAS_PRODUCTION   $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Production        2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
-0 GEPA_GAS_PROCESSING   $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Processing        2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
-0 GEPA_GAS_TRANSMISSION $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Transmission      2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
-0 GEPA_GAS_DISTRIBUTION $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Distribution      2012/1/1/0    C xy molec/cm2/s CH4 1008    2 50
+0 GEPA_GAS_PRODUCTION   $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Production        2012/1/1/0    C xy molec/cm2/s CH4 1008    2 100
+0 GEPA_GAS_PROCESSING   $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Processing        2012/1/1/0    C xy molec/cm2/s CH4 1008    2 100
+0 GEPA_GAS_TRANSMISSION $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Transmission      2012/1/1/0    C xy molec/cm2/s CH4 1008    2 100
+0 GEPA_GAS_DISTRIBUTION $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Distribution      2012/1/1/0    C xy molec/cm2/s CH4 1008    2 100
 
 ### Coal ###
-0 GEPA_COAL_UNDERGROUND $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Coal_Mining_Underground       2012/1/1/0    C xy molec/cm2/s CH4 1008    3 50
-0 GEPA_COAL_SURFACE     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Coal_Mining_Surface           2012/1/1/0    C xy molec/cm2/s CH4 1008    3 50
-0 GEPA_COAL_ABANDONED   $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Abandoned_Coal                2012/1/1/0    C xy molec/cm2/s CH4 1008    3 50
+0 GEPA_COAL_UNDERGROUND $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Coal_Mining_Underground       2012/1/1/0    C xy molec/cm2/s CH4 1008    3 100
+0 GEPA_COAL_SURFACE     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Coal_Mining_Surface           2012/1/1/0    C xy molec/cm2/s CH4 1008    3 100
+0 GEPA_COAL_ABANDONED   $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Abandoned_Coal                2012/1/1/0    C xy molec/cm2/s CH4 1008    3 100
 
 ### Livestock ###
-0 GEPA_LIVESTOCK__4A    $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_4A_Enteric_Fermentation            2012/1/1/0    C xy molec/cm2/s CH4 1008    4 50
-0 GEPA_LIVESTOCK__4B    $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_4B_Manure_Management               2012/1/1/0    C xy molec/cm2/s CH4 10/1008 4 50
+0 GEPA_LIVESTOCK__4A    $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_4A_Enteric_Fermentation            2012/1/1/0    C xy molec/cm2/s CH4 1008    4 100
+0 GEPA_LIVESTOCK__4B    $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_4B_Manure_Management               2012/1/1/0    C xy molec/cm2/s CH4 10/1008 4 100
 
 ### Landfills ###
-0 GEPA_LANDFILLS_MUNI   $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6A_Landfills_Municipal             2012/1/1/0    C xy molec/cm2/s CH4 1008    5 50
-0 GEPA_LANDFILLS_INDU   $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6A_Landfills_Industrial            2012/1/1/0    C xy molec/cm2/s CH4 1008    5 50
+0 GEPA_LANDFILLS_MUNI   $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6A_Landfills_Municipal             2012/1/1/0    C xy molec/cm2/s CH4 1008    5 100
+0 GEPA_LANDFILLS_INDU   $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6A_Landfills_Industrial            2012/1/1/0    C xy molec/cm2/s CH4 1008    5 100
 
 ### Wastewater ###
-0 GEPA_WASTEWATER_DOME  $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6B_Wastewater_Treatment_Domestic   2012/1/1/0    C xy molec/cm2/s CH4 1008    6 50
-0 GEPA_WASTEWATER_INDU  $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6B_Wastewater_Treatment_Industrial 2012/1/1/0    C xy molec/cm2/s CH4 1008    6 50
+0 GEPA_WASTEWATER_DOME  $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6B_Wastewater_Treatment_Domestic   2012/1/1/0    C xy molec/cm2/s CH4 1008    6 100
+0 GEPA_WASTEWATER_INDU  $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6B_Wastewater_Treatment_Industrial 2012/1/1/0    C xy molec/cm2/s CH4 1008    6 100
 
 ### Rice ###
-0 GEPA_RICE             $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc emissions_4C_Rice_Cultivation                 2012/1/1/0    C xy molec/cm2/s CH4 11/1008 7 50
+0 GEPA_RICE             $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc emissions_4C_Rice_Cultivation                 2012/1/1/0    C xy molec/cm2/s CH4 11/1008 7 100
 
 ### Other Anthro ###
-0 GEPA_OTHER__1A_M      $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1A_Combustion_Mobile               2012/1/1/0    C xy molec/cm2/s CH4 1008    8 50
-0 GEPA_OTHER__1A_S      $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1A_Combustion_Stationary           2012/1/1/0    C xy molec/cm2/s CH4 1008    8 50
-0 GEPA_OTHER__2B5       $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_2B5_Petrochemical_Production       2012/1/1/0    C xy molec/cm2/s CH4 1008    8 50
-0 GEPA_OTHER__2C2       $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_2C2_Ferroalloy_Production          2012/1/1/0    C xy molec/cm2/s CH4 1008    8 50
-0 GEPA_OTHER__4F        $ROOT/CH4/v2017-10/GEPA/GEPA_Monthly.nc emissions_4F_Field_Burning                   2012/1-12/1/0 C xy molec/cm2/s CH4 1008    8 50
-#0 GEPA_OTHER__5        $ROOT/CH4/v2017-10/GEPA_Daily.nc        emissions_5_Forest_Fires                     2012/1/1/0    C xy molec/cm2/s CH4 1008    9 50
-0 GEPA_OTHER__6D        $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6D_Composting                      2012/1/1/0    C xy molec/cm2/s CH4 1008    8 50
+0 GEPA_OTHER__1A_M      $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1A_Combustion_Mobile               2012/1/1/0    C xy molec/cm2/s CH4 1008    8 100
+0 GEPA_OTHER__1A_S      $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1A_Combustion_Stationary           2012/1/1/0    C xy molec/cm2/s CH4 1008    8 100
+0 GEPA_OTHER__2B5       $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_2B5_Petrochemical_Production       2012/1/1/0    C xy molec/cm2/s CH4 1008    8 100
+0 GEPA_OTHER__2C2       $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_2C2_Ferroalloy_Production          2012/1/1/0    C xy molec/cm2/s CH4 1008    8 100
+0 GEPA_OTHER__4F        $ROOT/CH4/v2017-10/GEPA/GEPA_Monthly.nc emissions_4F_Field_Burning                   2012/1-12/1/0 C xy molec/cm2/s CH4 1008    8 100
+#0 GEPA_OTHER__5        $ROOT/CH4/v2017-10/GEPA_Daily.nc        emissions_5_Forest_Fires                     2012/1/1/0    C xy molec/cm2/s CH4 1008    9 100
+0 GEPA_OTHER__6D        $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6D_Composting                      2012/1/1/0    C xy molec/cm2/s CH4 1008    8 100
 
 ### Make sure to include offshore/coastal emissions (Hier=1 to add to EDGAR) ###
-0 GEPA_COAST_OIL        $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2a_Petroleum                     2012/1/1/0    C xy molec/cm2/s CH4 1009    1 1
-0 GEPA_COAST_GAS_PR     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2b_Natural_Gas_Production        2012/1/1/0    C xy molec/cm2/s CH4 1009    2 1
-0 GEPA_COAST_GAS_PC     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2b_Natural_Gas_Processing        2012/1/1/0    C xy molec/cm2/s CH4 1009    2 1
-0 GEPA_COAST_GAS_TR     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2b_Natural_Gas_Transmission      2012/1/1/0    C xy molec/cm2/s CH4 1009    2 1
-0 GEPA_COAST_GAS_DS     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2b_Natural_Gas_Distribution      2012/1/1/0    C xy molec/cm2/s CH4 1009    2 1
+0 GEPA_COAST_OIL        $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2a_Petroleum                     2012/1/1/0    C xy molec/cm2/s CH4 1009    1 100
+0 GEPA_COAST_GAS_PR     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2b_Natural_Gas_Production        2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
+0 GEPA_COAST_GAS_PC     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2b_Natural_Gas_Processing        2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
+0 GEPA_COAST_GAS_TR     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2b_Natural_Gas_Transmission      2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
+0 GEPA_COAST_GAS_DS     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B2b_Natural_Gas_Distribution      2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
 0 GEPA_COAST_COAL_U     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Coal_Mining_Underground       2012/1/1/0    C xy molec/cm2/s CH4 1009    3 1
 0 GEPA_COAST_COAL_S     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Coal_Mining_Surface           2012/1/1/0    C xy molec/cm2/s CH4 1009    3 1
 0 GEPA_COAST_COAL_A     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Abandoned_Coal                2012/1/1/0    C xy molec/cm2/s CH4 1009    3 1
@@ -189,25 +189,25 @@ Warnings:                    {WARNINGS}
 # --- Mexico emissions (Scarpelli et al., Environ. Res. Lett., 2020) ---
 #==============================================================================
 (((Mex
-0 MEX_OIL              $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_oil_2015.nc           emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 1 150
-0 MEX_GAS              $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_gas_2015.nc           emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 2 150
-0 MEX_COAL             $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_coal_2015.nc          emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 3 150
-0 MEX_LIVESTOCK_A      $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_livestock_A_2015.nc   emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 4 150
-0 MEX_LIVESTOCK_B      $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_livestock_B_2015.nc   emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 10/1001 4 150
-0 MEX_LANDFILLS        $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_landfill_2015.nc      emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 5 150
-0 MEX_WASTEWATER       $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_waste_2015.nc         emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 6 150
-0 MEX_RICE             $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_rice_2015.nc          emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 11/1001 7 150
-0 MEX_OTHER            $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_other_anthro_2015.nc  emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 8 150
+0 MEX_OIL              $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_oil_2015.nc           emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 1 100
+0 MEX_GAS              $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_gas_2015.nc           emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 2 100
+0 MEX_COAL             $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_coal_2015.nc          emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 3 100
+0 MEX_LIVESTOCK_A      $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_livestock_A_2015.nc   emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 4 100
+0 MEX_LIVESTOCK_B      $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_livestock_B_2015.nc   emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 10/1001 4 100
+0 MEX_LANDFILLS        $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_landfill_2015.nc      emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 5 100
+0 MEX_WASTEWATER       $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_waste_2015.nc         emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 6 100
+0 MEX_RICE             $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_rice_2015.nc          emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 11/1001 7 100
+0 MEX_OTHER            $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_other_anthro_2015.nc  emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1001 8 100
 
 ### Make sure to include offshore/coastal emissions (Hier=1 to add to EDGAR) ###
-0 MEX_OIL_COAST              $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_oil_2015.nc           emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 1 150
-0 MEX_GAS_COAST              $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_gas_2015.nc           emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 2 150
-0 MEX_COAL_COAST             $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_coal_2015.nc          emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 3 150
-0 MEX_LIVESTOCK_A_COAST      $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_livestock_A_2015.nc   emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 4 150
-0 MEX_LIVESTOCK_B_COAST      $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_livestock_B_2015.nc   emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 10/1010 4 150
-0 MEX_LANDFILLS_COAST        $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_landfill_2015.nc      emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 5 150
-0 MEX_WASTEWATER_COAST       $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_waste_2015.nc         emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 6 150
-0 MEX_RICE_COAST             $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_rice_2015.nc          emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 11/1010 7 150
+0 MEX_OIL_COAST              $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_oil_2015.nc           emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 1 100
+0 MEX_GAS_COAST              $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_gas_2015.nc           emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 2 100
+0 MEX_COAL_COAST             $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_coal_2015.nc          emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 3 1
+0 MEX_LIVESTOCK_A_COAST      $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_livestock_A_2015.nc   emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 4 1
+0 MEX_LIVESTOCK_B_COAST      $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_livestock_B_2015.nc   emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 10/1010 4 1
+0 MEX_LANDFILLS_COAST        $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_landfill_2015.nc      emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 5 1
+0 MEX_WASTEWATER_COAST       $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_waste_2015.nc         emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 1010 6 1
+0 MEX_RICE_COAST             $ROOT/CH4/v2020-09/Mexico/MEX_Tia2020_rice_2015.nc          emis_ch4              2015/1/1/0 C xy molec/cm2/s CH4 11/1010 7 1
 )))Mex
 
 #==============================================================================
@@ -215,24 +215,24 @@ Warnings:                    {WARNINGS}
 #==============================================================================
 (((Can
 #CANADA
-0 CAN_OIL              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_oil_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 1 150
-0 CAN_GAS              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_gas_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 2 150
-0 CAN_COAL             $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_coal_2018.nc          emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 3 150
-0 CAN_LIVESTOCK_A      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_A_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 4 150
-0 CAN_LIVESTOCK_B      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_B_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 10/1002 4 150
-0 CAN_LANDFILLS        $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_landfill_2018.nc      emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 5 150
-0 CAN_WASTEWATER       $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_waste_2018.nc         emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 6 150
-0 CAN_OTHER            $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_other_anthro_2018.nc  emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 8 150
+0 CAN_OIL              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_oil_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 1 100
+0 CAN_GAS              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_gas_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 2 100
+0 CAN_COAL             $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_coal_2018.nc          emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 3 100
+0 CAN_LIVESTOCK_A      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_A_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 4 100
+0 CAN_LIVESTOCK_B      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_B_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 10/1002 4 100
+0 CAN_LANDFILLS        $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_landfill_2018.nc      emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 5 100
+0 CAN_WASTEWATER       $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_waste_2018.nc         emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 6 100
+0 CAN_OTHER            $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_other_anthro_2018.nc  emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 8 100
 
 ### Make sure to include offshore/coastal emissions (Hier=1 to add to EDGAR) ###
-0 CAN_OIL_COAST              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_oil_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 1 150
-0 CAN_GAS_COAST              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_gas_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 2 150
-0 CAN_COAL_COAST             $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_coal_2018.nc          emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 3 150
-0 CAN_LIVESTOCK_A_COAST      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_A_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 4 150
-0 CAN_LIVESTOCK_B_COAST      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_B_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 10/1011 4 150
-0 CAN_LANDFILLS_COAST        $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_landfill_2018.nc      emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 5 150
-0 CAN_WASTEWATER_COAST       $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_waste_2018.nc         emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 6 150
-0 CAN_OTHER_COAST            $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_other_anthro_2018.nc  emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 8 150
+0 CAN_OIL_COAST              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_oil_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 1 100
+0 CAN_GAS_COAST              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_gas_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 2 100
+0 CAN_COAL_COAST             $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_coal_2018.nc          emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 3 1
+0 CAN_LIVESTOCK_A_COAST      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_A_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 4 1
+0 CAN_LIVESTOCK_B_COAST      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_B_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 10/1011 4 1
+0 CAN_LANDFILLS_COAST        $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_landfill_2018.nc      emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 5 1
+0 CAN_WASTEWATER_COAST       $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_waste_2018.nc         emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 6 1
+0 CAN_OTHER_COAST            $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_other_anthro_2018.nc  emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 8 1
 )))Can
 
 #==============================================================================
@@ -251,6 +251,8 @@ Warnings:                    {WARNINGS}
 #
 # This inventory will replace EDGAR (oil, gas, & coal), GEPA (oil, gas, & coal),
 # and CanMex (oil & gas); Set to hier=100
+# HON 2021/02: We allow the new GEPA oil, gas, & coal scaling and the new 
+# Canada and Mexico inventories from Scarpelli et al. to supercede GFEI.
 #==============================================================================
 (((GFEI
 0 GFEI_CH4_OIL  $ROOT/CH4/v2020-02/GFEI/Global_Fuel_Exploitation_Inventory_Oil_All.nc  emis_ch4_best 2012/1/1/0 C xy molec/cm2/s CH4 -  1 70
