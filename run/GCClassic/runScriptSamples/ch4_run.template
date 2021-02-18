@@ -23,6 +23,9 @@ log="$id.log"
 #-------------------------------------------------
 # Start the simulation
 #-------------------------------------------------
+# Load the compiler
+. ~/init/init.gc-classic.ifort17.centos7
+
 # Run GEOS-Chem and pipe output to log
 ./geos >> $log
 
