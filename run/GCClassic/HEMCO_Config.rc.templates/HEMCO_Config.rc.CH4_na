@@ -161,11 +161,11 @@ Warnings:                    {WARNINGS}
 0 GEPA_OTHER__6D        $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_6D_Composting                      2012/1/1/0    C xy molec/cm2/s CH4 1008    8 100
 
 ### Make sure to include offshore/coastal emissions (Hier=1 to add to EDGAR) ###
-0 GEPA_COAST_OIL        $ROOT/CH4/v2017-10/GEPA/GEPA_Annual_2018_extrapolated.nc  emissions_1B2a_Petroleum                     2012/1/1/0    C xy molec/cm2/s CH4 1009    1 100
-0 GEPA_COAST_GAS_PR     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Production        2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
-0 GEPA_COAST_GAS_PC     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Processing        2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
-0 GEPA_COAST_GAS_TR     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Transmission      2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
-0 GEPA_COAST_GAS_DS     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Distribution      2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
+0 GEPA_COAST_OIL        $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2a_Petroleum                     2012/1/1/0    C xy molec/cm2/s CH4 1009    1 100
+0 GEPA_COAST_GAS_PR     $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Production        2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
+0 GEPA_COAST_GAS_PC     $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Processing        2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
+0 GEPA_COAST_GAS_TR     $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Transmission      2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
+0 GEPA_COAST_GAS_DS     $ROOT/CH4/v2020-10/GEPA2018/GEPA_Annual_2018_extrapolated.nc  emissions_1B2b_Natural_Gas_Distribution      2012/1/1/0    C xy molec/cm2/s CH4 1009    2 100
 0 GEPA_COAST_COAL_U     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Coal_Mining_Underground       2012/1/1/0    C xy molec/cm2/s CH4 1009    3 1
 0 GEPA_COAST_COAL_S     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Coal_Mining_Surface           2012/1/1/0    C xy molec/cm2/s CH4 1009    3 1
 0 GEPA_COAST_COAL_A     $ROOT/CH4/v2017-10/GEPA/GEPA_Annual.nc  emissions_1B1a_Abandoned_Coal                2012/1/1/0    C xy molec/cm2/s CH4 1009    3 1
