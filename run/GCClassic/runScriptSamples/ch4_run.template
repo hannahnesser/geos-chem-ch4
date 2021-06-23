@@ -3,7 +3,7 @@
 #SBATCH -c 16
 #SBATCH -N 1
 #SBATCH -t 4-00:00
-#SBATCH -p huce_intel
+#SBATCH -p huce_cascade
 #SBATCH --mem=36000
 #SBATCH --mail-type=END
 
