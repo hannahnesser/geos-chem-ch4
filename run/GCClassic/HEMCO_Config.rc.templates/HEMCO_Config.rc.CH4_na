@@ -211,7 +211,7 @@ Warnings:                    {WARNINGS}
 )))Mex
 
 #==============================================================================
-# --- Canada emissions (Scarpelli et al., in prep.) ---
+# --- Canada emissions (Scarpelli et al., submitted) ---
 #==============================================================================
 (((Can
 #CANADA
@@ -219,20 +219,20 @@ Warnings:                    {WARNINGS}
 0 CAN_GAS              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_gas_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 2 100
 0 CAN_COAL             $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_coal_2018.nc          emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 3 100
 0 CAN_LIVESTOCK_A      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_A_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 4 100
-0 CAN_LIVESTOCK_B      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_B_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 10/1002 4 100
-0 CAN_LANDFILLS        $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_landfill_2018.nc      emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 5 100
-0 CAN_WASTEWATER       $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_waste_2018.nc         emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 6 100
-0 CAN_OTHER            $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_other_anthro_2018.nc  emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 8 100
+0 CAN_LIVESTOCK_B      $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_livestock_B_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 10/1002 4 100
+0 CAN_LANDFILLS        $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_landfill_2018.nc      emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 5 100
+0 CAN_WASTEWATER       $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_waste_2018.nc         emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 6 100
+0 CAN_OTHER            $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_other_anthro_2018.nc  emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1002 8 100
 
 ### Make sure to include offshore/coastal emissions (Hier=1 to add to EDGAR) ###
-0 CAN_OIL_COAST              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_oil_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 1 100
-0 CAN_GAS_COAST              $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_gas_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 2 100
-0 CAN_COAL_COAST             $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_coal_2018.nc          emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 3 100
-0 CAN_LIVESTOCK_A_COAST      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_A_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 4 1
-0 CAN_LIVESTOCK_B_COAST      $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_livestock_B_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 10/1011 4 1
-0 CAN_LANDFILLS_COAST        $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_landfill_2018.nc      emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 5 1
-0 CAN_WASTEWATER_COAST       $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_waste_2018.nc         emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 6 1
-0 CAN_OTHER_COAST            $ROOT/CH4/v2021-01/Canada/CAN_Tia2020_other_anthro_2018.nc  emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 8 1
+0 CAN_OIL_COAST              $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_oil_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 1 100
+0 CAN_GAS_COAST              $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_gas_2018.nc           emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 2 100
+0 CAN_COAL_COAST             $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_coal_2018.nc          emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 3 100
+0 CAN_LIVESTOCK_A_COAST      $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_livestock_A_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 4 1
+0 CAN_LIVESTOCK_B_COAST      $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_livestock_B_2018.nc   emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 10/1011 4 1
+0 CAN_LANDFILLS_COAST        $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_landfill_2018.nc      emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 5 1
+0 CAN_WASTEWATER_COAST       $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_waste_2018.nc         emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 6 1
+0 CAN_OTHER_COAST            $ROOT/CH4/v2021-07/Canada/CAN_Tia2020_other_anthro_2018.nc  emis_ch4              2018/1/1/0 C xy molec/cm2/s CH4 1011 8 1
 )))Can
 
 #==============================================================================
