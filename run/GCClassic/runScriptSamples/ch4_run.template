@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#SBATCH -c 16
-#SBATCH -N 1
-#SBATCH -t 4-00:00
-#SBATCH -p huce_intel
-#SBATCH --mem=36000
-#SBATCH --mail-type=END
+##SBATCH -c 16
+##SBATCH -N 1
+##SBATCH -t 4-00:00
+##SBATCH -p huce_cascade
+##SBATCH --mem=25000
+##SBATCH --mail-type=END
 
 # Set the proper # of threads for OpenMP
 # SLURM_CPUS_PER_TASK ensures this matches the number you set with -c above
@@ -23,11 +23,48 @@ log="$id.log"
 #-------------------------------------------------
 # Start the simulation
 #-------------------------------------------------
+# Load the compiler
+. ~/init/init.gc-classic.ifort17.centos7
+
 # Run GEOS-Chem and pipe output to log
 ./geos >> $log
 
 # Echo end fin
 echo '===> Run ended at' `date` >> $log
+
+#-------------------------------------------------
+# Pre-process the GEOS-Chem output
+#-------------------------------------------------
+
+
+#-------------------------------------------------
+# Run the TROPOMI operator
+#-------------------------------------------------
+# Load the python environment
+module load Anaconda3/5.0.1-fasrc01
+source activate ~/python/miniconda/envs/TROPOMI_inversion
+
+# Define data directories
+# Methane concentrations are provided by current run directory
+GC_CH4_DIR=$(pwd -P)
+
+# Pressure edges are provided by the prior run directory
+GC_PEDGE_DIR=${GC_CH4_DIR%_*}_0000
+
+# Code directory
+CODE_DIR=codedircodedir
+
+# Satellite data directory
+SAT_DIR=satdirsatdir
+
+# And finally a link to the actual TROPOMI operator script
+TROPOMI_OPERATOR=operatoroperator
+
+# Run script
+sbatch --array=1-12 ${
+python -u ${CODE_DIR}/TROPOMI_operator.py $CODE_DIR $SAT_DIR $GC_PEDGE_DIR $GC_CH4_DIR $MONTH?? $JACOBIAN
+# NEED TO PARALLELIZE OVER MONTHS
+
 
 #-------------------------------------------------
 # Clean up

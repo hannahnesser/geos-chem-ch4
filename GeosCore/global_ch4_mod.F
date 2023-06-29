@@ -284,7 +284,10 @@
 
       IF ( FIRST ) THEN
 
-         IF ( Input_Opt%AnalyticalInv ) THEN
+         ! HN 2021/09/24 Added if to do this only when perturb 
+         ! evec is False
+         IF ( Input_Opt%AnalyticalInv .and.
+     &        .NOT. Input_Opt%PerturbEvec ) THEN
 
             ! Get pointer to cluster file
             CALL HCO_GetPtr( am_I_Root, HcoState, 'CH4_CLUSTERS',
